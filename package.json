@@ -1,0 +1,38 @@
+{
+  "name": "WristWatch",
+  "version": "0.1.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brothersincode/wristwatch.git"
+  },
+  "keywords": [
+    "Electron"
+  ],
+  "author": "Nasser Rafie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brothersincode/wristwatch/issues"
+  },
+  "homepage": "https://github.com/brothersincode/wristwatch#readme",
+  "dependencies": {
+    "menubar": "^5.2.3"
+  },
+  "devDependencies": {
+    "semistandard": "^13.0.1",
+    "stylelint": "^9.8.0"
+  },
+  "semistandard": {
+    "ignore": [
+      "/dist",
+      "*.min.js"
+    ],
+    "globals": [
+      "define"
+    ]
+  }
+}
