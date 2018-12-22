@@ -1,6 +1,6 @@
 {
   "name": "WristWatch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
@@ -20,11 +20,12 @@
   },
   "homepage": "https://github.com/brothersincode/wristwatch#readme",
   "dependencies": {
+    "electron": "^4.0.0",
     "menubar": "^5.2.3"
   },
   "devDependencies": {
     "semistandard": "^13.0.1",
-    "stylelint": "^9.8.0"
+    "stylelint": "^9.9.0"
   },
   "semistandard": {
     "ignore": [
