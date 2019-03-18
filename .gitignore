@@ -1,3 +1,8 @@
+.build
+.idea
+.sass-cache
+.gulp
+.imdone
 .temp
 
 /components
@@ -5,3 +10,8 @@
 
 npm-debug.log
 yarn-error.log
+.tinypng-sigs
+
+environment.yml
+.env
+.ftpconfig
